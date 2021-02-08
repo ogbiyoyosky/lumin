@@ -1,3 +1,7 @@
-#npm install
+### Pangaea Assessment
 
-#npm start
+# Clone the Repository,
+
+# Run npm i
+
+# npm start
