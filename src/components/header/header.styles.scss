@@ -1,0 +1,36 @@
+.header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+
+  .logo-container {
+    height: 100%;
+    width: 70px;
+    padding: 25px;
+  }
+
+  .options {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .option {
+      padding: 10px 15px;
+    }
+  }
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  visibility: visible;
+  opacity: 0.8;
+  width: 100%;
+  z-index: 5;
+  background-color: rgb(205, 209, 206);
+}

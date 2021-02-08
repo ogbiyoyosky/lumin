@@ -1,0 +1,82 @@
+.cart-item {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: inherit;
+  max-height: inherit;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 20px;
+  background: rgb(255, 255, 255);
+
+  .product-description {
+    color: rgb(30, 45, 43);
+    width: 65%;
+    line-height: 18px;
+    font-size: 10px;
+    letter-spacing: 0.02px;
+    padding: 15px 13px 13px 21px;
+    .remove-product {
+      float: right;
+      position: absolute;
+      right: 0;
+      right: 27px;
+      margin-top: -10px;
+      margin-right: -20px;
+      font-size: 20px;
+      opacity: 0.7;
+      cursor: pointer;
+      color: rgb(0, 0, 0);
+      .ff-bau-medium {
+        font-family: "FF Bau Medium", san-serif;
+      }
+    }
+  }
+
+  .quantity {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+
+  .quantity-selector {
+    width: 76px;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: rgb(188, 188, 188);
+    border-image: initial;
+    padding: 7px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .counter-action {
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+  }
+  .counter {
+    font-size: 13px;
+    padding: 0px 10px;
+  }
+  .price {
+    float: right;
+    width: inherit;
+    font-size: 13px;
+    letter-spacing: 0.03px;
+    padding: 0px 10px;
+  }
+  img {
+    width: 30%;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(30, 45, 43);
+    width: 33.3%;
+    padding-right: 15px;
+  }
+}
